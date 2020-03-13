@@ -1,0 +1,9 @@
+function P {
+            param($Computername)
+            return (Test-Connection $Computername -Count 1 -Quiet)
+            }
+
+
+
+PS H:\> p googel.com
+True
